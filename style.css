@@ -1,0 +1,164 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+.navbar {
+  background-color: #333;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 14px 20px;
+}
+
+#logo {
+  color: white;
+  font-size: 18px;
+}
+
+#nav-left ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+#nav-left ul li {
+  position: relative;
+}
+
+#nav-left ul li a,
+#nav-right a {
+  color: goldenrod;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+#nav-right {
+  display: flex;
+}
+
+#nav-right button {
+  background: none;
+  border: none;
+}
+
+li a,
+.dropbtn {
+  display: inline-block;
+  color: goldenrod;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover,
+.dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  width: 60vw;
+  min-height: 40vw;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  grid-template-columns: 1fr 2fr;
+  grid-gap: 10px;
+  padding: 10px;
+  z-index: 1;
+}
+
+.dropdown-content .links {
+  background-color: lightgray;
+  padding: 10px;
+}
+
+.dropdown-content .links a {
+  color: black;
+  padding: 8px;
+  display: block;
+  text-decoration: none;
+}
+
+.dropdown-content .details {
+  padding: 10px;
+}
+
+.dropdown-content .details div {
+  display: none;
+}
+
+.dropdown-content .details div:first-child {
+  display: block;
+}
+
+.dropdown:hover .dropdown-content {
+  display: grid;
+}
+
+.dropdown-content .links a:hover + .details div {
+  display: none;
+}
+
+.dropdown-content
+  .links
+  a[data-target='commercial-banking']:hover
+  ~ .details
+  #commercial-banking,
+.dropdown-content
+  .links
+  a[data-target='credit-financing']:hover
+  ~ .details
+  #credit-financing,
+.dropdown-content
+  .links
+  a[data-target='institutional-investing']:hover
+  ~ .details
+  #institutional-investing,
+.dropdown-content
+  .links
+  a[data-target='investment']:hover
+  ~ .details
+  #investment,
+.dropdown-content
+  .links
+  a[data-target='private-bank']:hover
+  ~ .details
+  #private-bank,
+.dropdown-content
+  .links
+  a[data-target='wealth-management']:hover
+  ~ .details
+  #wealth-management {
+  display: block;
+}
+/* start degin with main div/ */
+.main {
+  display: flex;
+}
+#main-left {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  float: left;
+}
+#main-right {
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  float: right;
+}
+#main-right img {
+  display: flex;
+  flex-direction: column;
+  display: block;
+  width: 500px;
+  height: 500px;
+}
