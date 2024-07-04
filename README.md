@@ -1,8 +1,8 @@
 # Codsoft-LandingPage
-Building a Landing page using Html,css to create columns, divide sections, arrange
+Build a Landing page using Html,css,Jquery to create columns, divide sections, arrange
 items, and add headers and footers. The most important aspect is unleashing the
-creativity to design an impressive page. Paid attention to alignments, padding,
+creativity to design an impressive page. For alignments used padding,
 color palette, boxes, and other elements. Mindful of CSS to avoid overlapping
-elements. it allow to apply HTML and CSS skills,
-encouraging your creativity while ensuring a visually appealing and
+of elements. it allow to apply HTML and CSS skills,
+encouraging  creativity while ensuring a visually appealing and
 user-friendly design.
