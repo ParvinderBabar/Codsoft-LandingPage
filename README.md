@@ -6,3 +6,6 @@ color palette, boxes, and other elements. Mindful of CSS to avoid overlapping
 of elements. it allow to apply HTML and CSS skills,
 encouraging  creativity while ensuring a visually appealing and
 user-friendly design.
+
+## link
+https://banking-landingpage.netlify.app/
